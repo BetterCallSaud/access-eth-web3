@@ -1,7 +1,7 @@
 var Web3 = require("web3");
 var fs = require('fs');
 
-var provider = "https://mainnet.infura.io/v3/e20ef059f9d4488c9f38df35793de362";
+var provider = "MAINNET-INFURA-API-KEY";
 var web3Provider = new Web3.providers.HttpProvider(provider);
 var web3 = new Web3(web3Provider);
 
